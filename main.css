@@ -104,3 +104,8 @@ footer .rodape {
 	margin-right: 0px;
 	float: right;
 }
+.texto_sobre {
+	margin-left: 40px;
+	padding-bottom: 40px;
+	font-family: arial;
+}
