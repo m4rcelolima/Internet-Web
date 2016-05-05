@@ -10,6 +10,7 @@
 	padding-top: 20px;
 	padding-bottom: 10px;
 	font-size: 13px;
+	color: #FF8C00;
 }
 .por_apenas {
 	font-size: 16px;
@@ -18,10 +19,13 @@
 .preco_atual {
 	display: inline;
 	font-size: 19px;
+	color: #008000;
+	font-weight: bold;
 }
 .add_carrinho {
 	font-size: 15px;
 	text-align: right;
+	font-style: italic;
 }
 .foto_produto {
 	margin-left: 30px;
