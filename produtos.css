@@ -1,0 +1,33 @@
+.produto_titulo {
+	font-size: 23px;
+	font-weight: bold;
+}
+.produto_nome {
+	margin-top: 14px;
+	font-weight: bold;
+}
+.preco_anterior {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 13px;
+}
+.por_apenas {
+	font-size: 16px;
+	display: inline;
+}
+.preco_atual {
+	display: inline;
+	font-size: 19px;
+}
+.add_carrinho {
+	font-size: 15px;
+	text-align: right;
+}
+.foto_produto {
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	padding-right: 80px;
+	max-width: 300px;
+}

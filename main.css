@@ -1,0 +1,111 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(imagens/fundo.jpg);
+}
+.topo {
+	margin-top: 30px;
+	border-radius: 10px 10px 0 0;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+	height:auto;
+	background-image: url(imagens/azul.jpg);
+}
+.titulo {
+	font-size: 50px;
+	color: black;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+.navegacao {
+	font-size: 18px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: 210px;
+}
+.navegacao .link {
+	position: center;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	padding-bottom: 5px;
+	position: center;
+}
+.navegacao a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+.navegacao .link:hover {
+	color:#F7F8FF;
+	background-color: white;
+	display: inline-block;
+	padding: 10px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+.principal {
+	width: 800px;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block; 
+	height:auto;
+	background-image: url(imagens/azul.jpg);
+}
+.corpo {
+	width: 760px;
+	box-shadow: 0px 0px 17px 0px;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+	color: #042110;
+}
+.titulo_corpo {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: arial;
+	font-size: 35px;
+	font-weight: bold;
+}
+footer {
+	margin-top: 0;
+	font-family: arial;
+	font-size: 14px;
+	border-radius: 0 0 10px 10px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+	height:auto;
+	background-image: url(imagens/azul.jpg);
+	text-align: center;
+	margin-bottom: 30px;
+}
+footer .rodape {
+	text-align: right;
+	margin-right: 20px;
+}
+.tabela_login {
+	padding: 20px;
+	margin: 0 auto;
+}
+.botao_login {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+	float: right;
+}
+.texto_sobre {
+	margin-left: 40px;
+	padding-bottom: 40px;
+	font-family: arial;
+}
