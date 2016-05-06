@@ -1,11 +1,7 @@
-@charset "utf-8";
-/* CSS Document */
-
 #banner #banner_img {
 	width: 760px;
 	height: 350px;
 }
-
 #banner a {
 	border: solid 1px #333;
 	background-color: #F7F7F7;
@@ -13,24 +9,18 @@
 	text-decoration: none;
 	color: #000;
 }
-
-	#banner a:hover {
-		border: solid 1px #333;
-		text-decoration: underline;
-		background-color: #333;
-		color: #FFF;
-	}
-	
-	#banner a.hover {
-		background-color: #333;
-		color: #FFF;
-	}
-	
+#banner a:hover {
+	border: solid 1px #333;
+	text-decoration: underline;
+	background-color: #333;
+	color: #FFF;
+}
+#banner a.hover {
+	background-color: #333;
+	color: #FFF;
+}
 #banner #botoes {
 	text-align: center;
-}
-
-#banner #botoes {
 	padding-top: 5px;
 	padding-bottom: 40px;
 }

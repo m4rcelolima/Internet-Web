@@ -32,6 +32,7 @@
 	text-align: right;
 	font-style: italic;
 	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 10px;
 }
 .foto_produto {
 	margin-left: 30px;
@@ -40,4 +41,9 @@
 	margin-right: 20px;
 	padding-right: 80px;
 	max-width: 300px;
+}
+.corpo a {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #228B22;
 }

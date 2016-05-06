@@ -63,7 +63,6 @@ body {
 	padding-bottom: 10px;
 	display: block; 
 	height:auto;
-
 }
 .corpo {
 	width: 760px;
@@ -92,8 +91,6 @@ footer {
 	margin-right: auto;
 	display: block; 
 	height:auto;
-
-	text-align: center;
 	margin-bottom: 30px;
 }
 footer .rodape {
@@ -132,5 +129,14 @@ footer .rodape {
 	margin-right: auto;
 	display: block; 
 	height:auto;
-
+}
+.texto_principal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 40px;
+	font-size: 20px;
+}
+.texto_principal a {
+	color: #228B22;
 }
