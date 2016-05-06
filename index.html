@@ -4,9 +4,14 @@
 	<title>TecnoLoja</title>
 	<link rel="stylesheet" type="text/css" href="main.css" />
 	<link rel="stylesheet" type="text/css" href="produtos.css" />
+	<link href="banner.css" rel="stylesheet" type="text/css" />
+	<script type="text/jscript" src="banner.js"></script>
 </head>
 
 <body>
+
+
+
 	<div class="topo">
 		<div class="titulo">TecnoLoja</div>
 		<nav class="navegacao">
@@ -21,51 +26,20 @@
 	<div class="principal">
 		<div class="corpo">
 			<div class="titulo_corpo">Ofertas Imperd&iacuteveis:</div>
-			<table >
+			
+			<div id="banner" class="banner">
+				<div id="banner_img">
+			   	  	<img src="banner_img/1.jpg" width="760" height="350px" border="0" alt="Banner">
+			    </div>
+			    <div id="botoes">
+			    		<a href="javascript:void(0);" id="banner_img_1" class="hover" onclick="mudaImg('0');">1</a>
+			        	<a href="javascript:void(0);" id="banner_img_2" onclick="mudaImg('1');">2</a>
+						<a href="javascript:void(0);" id="banner_img_3" onclick="mudaImg('2');">3</a>
+			        	<a href="javascript:void(0);" id="banner_img_4" onclick="mudaImg('3');">4</a>
+			    </div>
 
-				<tr>
-					<td >
-						<img class="foto_produto" src="imagens/geforce_gtx_960_2.jpg"/>
-					</td>
-					<td>
-						<div class="produto_titulo">Placa de V&iacutedeo</div>
-						<div class="produto_nome">ASUS GeForce GTX960 2GB STRIX</div>
-						<div class="preco_anterior">de R$799,00</div>
-						<div class="por_apenas">por apenas </div>
-						<div class="preco_atual">R$699,00</div>
-						<div class="add_carrinho">Adicionar ao carrinho<img src="imagens/carrinho.jpg"/></div>
-					</td>
-				</tr>
+			</div>
 
-				<tr>
-					<td >
-						<img class="foto_produto" src="imagens/gygabyte.jpg"/>
-					</td>
-					<td>
-						<div class="produto_titulo">Placa-M&atildee</div>
-						<div class="produto_nome">GIGABYTE p/ Intel LGA 1151 ATX GA-H170-GAMING 3</div>
-						<div class="preco_anterior">de R$ 941,06</div>
-						<div class="por_apenas">por apenas </div>
-						<div class="preco_atual">R$ 799,90</div>
-						<div class="add_carrinho">Adicionar ao carrinho<img src="imagens/carrinho.jpg"/></div>
-					</td>
-				</tr>
-
-				<tr>
-					<td >
-						<img class="foto_produto" src="imagens/i5intel.jpg"/>
-					</td>
-					<td>
-						<div class="produto_titulo">Processador</div>
-						<div class="produto_nome">Intel Core I5 4440 LGA 1150</div>
-						<div class="preco_anterior">de R$999,00</div>
-						<div class="por_apenas">por apenas </div>
-						<div class="preco_atual">R$899,00</div>
-						<div class="add_carrinho">Adicionar ao carrinho<img src="imagens/carrinho.jpg"/></div>
-					</td>
-				</tr>
-
-			</table>
 		</div>
 	</div>
 	<footer>
