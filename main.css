@@ -16,6 +16,7 @@ body {
 .titulo {
 	font-size: 55px;
 	color: black;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	text-align: center;
 	font-family: Courier;
@@ -116,7 +117,9 @@ footer .rodape {
 	font-family: arial;
 }
 .Hora {
-	display: inline;
-	font: 20px Courier;
+	text-align: right;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	font: 25px Courier;
 	color: #ffffff;
 }
