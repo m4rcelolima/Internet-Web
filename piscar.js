@@ -6,5 +6,4 @@ function piscar() {
 		document.getElementById("titulo_pisca").className ="titulo_corpo_aparece";
 	}
 }
-
 setInterval("piscar()", 700);
