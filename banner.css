@@ -15,6 +15,10 @@
 	background-color: #333;
 	color: #FFF;
 }
+#banner a.hover {
+	background-color: #333;
+	color: #FFF;
+}
 #banner #botoes {
 	text-align: center;
 	padding-top: 5px;
