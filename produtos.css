@@ -1,31 +1,37 @@
 .produto_titulo {
 	font-size: 23px;
 	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .produto_nome {
 	margin-top: 14px;
 	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .preco_anterior {
 	padding-top: 20px;
 	padding-bottom: 10px;
 	font-size: 13px;
 	color: #FF8C00;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .por_apenas {
 	font-size: 16px;
 	display: inline;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .preco_atual {
 	display: inline;
 	font-size: 19px;
 	color: #008000;
 	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .add_carrinho {
 	font-size: 15px;
 	text-align: right;
 	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .foto_produto {
 	margin-left: 30px;
