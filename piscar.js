@@ -7,4 +7,4 @@ function piscar() {
 	}
 }
 
-setInterval("piscar()", 500);
+setInterval("piscar()", 800);
