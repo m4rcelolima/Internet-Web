@@ -11,7 +11,6 @@ body {
 	margin-right: auto;
 	display: block; 
 	height:auto;
-	background-image: url(imagens/azul.jpg);
 }
 .titulo {
 	font-size: 55px;
@@ -22,6 +21,7 @@ body {
 	font-family: Courier;
 	color: #ffffff;
 	font-weight: bold;
+	text-shadow: 0px 0px 7px #474747;
 }
 .navegacao {
 	font-size: 20px;
@@ -31,7 +31,6 @@ body {
 }
 .navegacao .link {
 	position: center;
-	color: black;
 	display: inline-block;
 	padding: 10px;
 	padding-bottom: 5px;
@@ -40,9 +39,9 @@ body {
 }
 .navegacao a{
 	text-decoration: none;
-	color: black;
 	text-align: center;
 	color: #ffffff;
+	text-shadow: 0px 0px 7px #474747;
 	font-family: Courier;
 	font-weight: bold;
 }
@@ -64,7 +63,7 @@ body {
 	padding-bottom: 10px;
 	display: block; 
 	height:auto;
-	background-image: url(imagens/azul.jpg);
+
 }
 .corpo {
 	width: 760px;
@@ -93,7 +92,7 @@ footer {
 	margin-right: auto;
 	display: block; 
 	height:auto;
-	background-image: url(imagens/azul.jpg);
+
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -122,4 +121,16 @@ footer .rodape {
 	padding-bottom: 20px;
 	font: 25px Courier;
 	color: #ffffff;
+	text-shadow: 0px 0px 7px #474747;
+}
+.corpo_todo {
+	background-image: url(imagens/azul.jpg);
+	margin-top: 30px;
+	border-radius: 10px 10px 10px 10px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block; 
+	height:auto;
+
 }
