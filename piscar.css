@@ -16,3 +16,8 @@
 	font-weight: bold;
 	display: none;
 }
+.espaco_titulo {
+	display: block;
+	height: 85px;
+	padding-top: 20px;
+}
