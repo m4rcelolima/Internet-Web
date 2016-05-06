@@ -1,5 +1,7 @@
 .corpo a {
 	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #228B22;
 }
 .cat_produto_titulo {
 	font-size: 23px;
