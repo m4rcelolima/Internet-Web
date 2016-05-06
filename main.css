@@ -115,3 +115,10 @@ footer .rodape {
 	padding-bottom: 40px;
 	font-family: arial;
 }
+.Hora {
+	position: absolute;
+	top: 7%;
+	left: 71%;
+	font: 20px Courier;
+	color: #ffffff;
+}
